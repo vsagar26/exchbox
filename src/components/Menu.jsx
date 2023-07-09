@@ -1,5 +1,4 @@
 import React from "react";
-import { home, tnc, contact, paymentmode, exchange } from "../assets";
 import { AiFillHome } from "react-icons/ai";
 import {SiExpertsexchange} from "react-icons/si"
 import {RiBankFill} from "react-icons/ri"
@@ -24,7 +23,7 @@ const Menu = () => {
           <h3 className="text-center">PAYMENT</h3></a>
         </div>
         <div >
-          <a href="" className="flex flex-col justify-center items-center hover:cursor-pointer"><HiDocumentCheck className="text-[30px] text-white" />
+          <a href={"https://wa.me/917779996639?text=I%20want%20to%20know%20terms%20and%20conditions%20for%20betting%20account"} className="flex flex-col justify-center items-center hover:cursor-pointer"><HiDocumentCheck className="text-[30px] text-white" />
           <h3 className="text-center">T&C</h3></a>
         </div>
         <div >

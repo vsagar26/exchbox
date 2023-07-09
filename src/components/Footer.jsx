@@ -3,6 +3,7 @@ import { BsFacebook } from "react-icons/bs";
 import { AiFillTwitterCircle, AiFillInstagram } from "react-icons/ai";
 import { logo, responsible } from "../assets";
 import { icons } from "../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,19 +29,19 @@ const Footer = () => {
                   <h3 className="text-[25px] text-black pb-3">Games</h3>
                   <ul>
                     <li className="py-1 hover:text-black">
-                      <a href="#">Cricket</a>
+                      <a href="/">Cricket</a>
                     </li>
                     <li className="py-1 hover:text-black">
-                      <a href="#">Football</a>
+                      <a href="/">Football</a>
                     </li>
                     <li className="py-1 hover:text-black">
-                      <a href="#">Tennis</a>
+                      <a href="/">Tennis</a>
                     </li>
                     <li className="py-1 hover:text-black">
-                      <a href="#">Horse Racing</a>
+                      <a href="/">Horse Racing</a>
                     </li>
                     <li className="py-1 hover:text-black">
-                      <a href="#">Live Casino</a>
+                      <a href="/">Live Casino</a>
                     </li>
                   </ul>
                 </div>
@@ -79,13 +80,13 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="flex flex-row mt-4">
-                  <a href="#">
+                  <a href="https://www.facebook.com">
                     <BsFacebook className="mr-2 text-[25px]" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.twitter.com">
                     <AiFillTwitterCircle className=" mx-2 text-[25px]" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.instagram.com">
                     <AiFillInstagram className=" mx-2 text-[25px]" />
                   </a>
                 </div>
@@ -99,27 +100,27 @@ const Footer = () => {
         <div>
           <ul className="flex flex-row gap-x-5 ">
             <li>
-              <a href="#" className="hover:text-[#F41CB2]">
-                Home |{" "}
+              <a href="/" className="hover:text-[#F41CB2]">
+                Home |
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#F41CB2]">
-                Exchanges |{" "}
+              <Link to="/exchange" className="hover:text-[#F41CB2]">
+                Exchanges |
+              </Link>
+            </li>
+            <li>
+              <a href="/#payment" className="hover:text-[#F41CB2]">
+                Payment Modes |
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#F41CB2]">
-                Payment Modes |{" "}
+              <a href={"https://wa.me/917779996639?text=I%20want%20to%20know%20terms%20and%20conditions%20for%20betting%20account"} className="hover:text-[#F41CB2]">
+                Terms & Conditions |
               </a>
             </li>
             <li>
-              <a href="#" className="hover:text-[#F41CB2]">
-                Terms & Conditions |{" "}
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:text-[#F41CB2]">
+              <a href={"https://wa.me/917779996639?text=I'm%20intrested%20to%20buy%20betting%20account"} className="hover:text-[#F41CB2]">
                 Contact Us
               </a>
             </li>
