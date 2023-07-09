@@ -23,37 +23,37 @@ const Exchange = () => {
       >
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2  hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => setItems(exchanges)}
+          onClick={() => setItems(exchanges)} data-aos="fade-right" data-aos-duration="1000"
         >
           All Types
         </button>
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2 hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => filterItem("skyexchange")}
+          onClick={() => filterItem("skyexchange")} data-aos="fade-right" data-aos-duration="1000"
         >
           SKY VERSION
         </button>
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2 hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => filterItem("diamondversion")}
+          onClick={() => filterItem("diamondversion")} data-aos="fade-right" data-aos-duration="1000"
         >
           DIAMOND VERSION
         </button>
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2 hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => filterItem("d247version")}
+          onClick={() => filterItem("d247version")} data-aos="fade-left" data-aos-duration="1000"
         >
           D247 VERSION
         </button>
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2 hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => filterItem("99exchversion")}
+          onClick={() => filterItem("99exchversion")} data-aos="fade-left" data-aos-duration="1000"
         >
           99EXCH VERSION
         </button>
         <button
           className={`bg-[#ffffff] border-[3px] border-[#F41CB2] text-[#F41CB2] font-poppins px-10 py-2  my-2 hover:bg-[#F41CB2] hover:text-[#ffffff] hover:border-[#F41CB2] active:bg-[#F41CB2] active:text-[#F41CB2] active:border-[#F41CB2] rounded-3xl`}
-          onClick={() => filterItem("exchboxversion")}
+          onClick={() => filterItem("exchboxversion")} data-aos="fade-left" data-aos-duration="1000"
         >
           EXCHBOX VERSION
         </button>
@@ -62,16 +62,16 @@ const Exchange = () => {
       <div className={`flex flex-col justify-center items-center`}>
         {items.map((exchange) => (
           <section className={`flex flex-col `}>
-            <div className={`flex flex-row gap-4`}>
+            <div className={`flex flex-row gap-4`} >
               <li
                 key={exchange.id}
-                className={`list-none sm:px-12 py-4 bg-[#F41CB2] w-[160px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`}
+                className={`list-none sm:px-12 py-4 bg-[#F41CB2] w-[160px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`} data-aos="fade-right" data-aos-duration="1500"
               >
                 {exchange.title}
               </li>
               <div
                 key={2 * exchange.id}
-                className={`list-none px-4 py-4 bg-[#F41CB2] w-[100px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`}
+                className={`list-none px-4 py-4 bg-[#F41CB2] w-[100px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`} data-aos="fade-left" data-aos-duration="1500"
               >
                 {exchange.rate}
               </div>

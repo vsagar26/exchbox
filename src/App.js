@@ -3,6 +3,10 @@ import Navbar from "./components/Navbar";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import AllRoutes from "./Routes/AllRoutes";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+
+Aos.init();
 
 function App() {
   return (
