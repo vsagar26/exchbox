@@ -17,7 +17,7 @@
 /* Carousel */
 
 .carousel{
-  background: #F41CB2;
+  background: #FE6602;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -35,7 +35,7 @@
 /* Menu */
 
 .menu-wrapper{
-  background-color: #F41CB2;
+  background-color: #FE6602;
   color: #fff;
   padding: 0px 50px;
   display: flex;

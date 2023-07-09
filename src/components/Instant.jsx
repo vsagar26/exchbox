@@ -4,7 +4,7 @@ import { instant } from '../assets'
 const Instant = () => {
   return (
     <div>
-        <div className='bg-[#F41CB2] flex flex-row justify-center items-center gap-x-[200px] mt-16'>
+        <div className='bg-[#FE6602] flex flex-row justify-center items-center gap-x-[200px] mt-16'>
             <div className='px-32 py-8' data-aos="fade-right" data-aos-duration="2000">
                 <h3 className='text-[#fff] font-bold py-3 text-[30px]'>INSTANT SERVICES</h3>
                 <ul className='text-[#fff]'>

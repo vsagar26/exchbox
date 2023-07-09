@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#fff] w-full pt-12">
        
-      <div className="text-[#F41CB2]">
+      <div className="text-[#FE6602]">
         <div className="pt-5 pb-5 flex flex-row justify-center items-center">
           <div className="row flex flex-row gap-x-[120px]">
             <div className="mb-2">
@@ -81,13 +81,13 @@ const Footer = () => {
                 </div>
                 <div className="flex flex-row mt-4">
                   <a href="https://www.facebook.com">
-                    <BsFacebook className="mr-2 text-[25px]" />
+                    <BsFacebook className="mr-2 text-[25px] hover:text-[#000000] ease-in-out duration-200" />
                   </a>
                   <a href="https://www.twitter.com">
-                    <AiFillTwitterCircle className=" mx-2 text-[25px]" />
+                    <AiFillTwitterCircle className=" mx-2 text-[25px] hover:text-[#000000] ease-in-out duration-200" />
                   </a>
                   <a href="https://www.instagram.com">
-                    <AiFillInstagram className=" mx-2 text-[25px]" />
+                    <AiFillInstagram className=" mx-2 text-[25px] hover:text-[#000000] ease-in-out duration-200" />
                   </a>
                 </div>
               </div>
@@ -100,27 +100,27 @@ const Footer = () => {
         <div>
           <ul className="flex flex-row gap-x-5 ">
             <li>
-              <a href="/" className="hover:text-[#F41CB2]">
+              <a href="/" className="hover:text-[#FE6602]">
                 Home |
               </a>
             </li>
             <li>
-              <Link to="/exchange" className="hover:text-[#F41CB2]">
+              <Link to="/exchange" className="hover:text-[#FE6602]">
                 Exchanges |
               </Link>
             </li>
             <li>
-              <a href="/#payment" className="hover:text-[#F41CB2]">
+              <a href="/#payment" className="hover:text-[#FE6602]">
                 Payment Modes |
               </a>
             </li>
             <li>
-              <a href={"https://wa.me/917779996639?text=I%20want%20to%20know%20terms%20and%20conditions%20for%20betting%20account"} className="hover:text-[#F41CB2]">
+              <a href={"https://wa.me/917779996639?text=I%20want%20to%20know%20terms%20and%20conditions%20for%20betting%20account"} className="hover:text-[#FE6602]">
                 Terms & Conditions |
               </a>
             </li>
             <li>
-              <a href={"https://wa.me/917779996639?text=I'm%20intrested%20to%20buy%20betting%20account"} className="hover:text-[#F41CB2]">
+              <a href={"https://wa.me/917779996639?text=I'm%20intrested%20to%20buy%20betting%20account"} className="hover:text-[#FE6602]">
                 Contact Us
               </a>
             </li>
