@@ -3,7 +3,7 @@ import { icons } from "../constants";
 
 const Payment = () => {
   return (
-    <section className={`flex flex-col mt-8 pb-8 w-[550px] sm:w-full`} id='payment'>
+    <section className={`flex flex-col mt-8 pb-20 w-[550px] sm:w-full `} id='payment'>
       <div>
         <h2 className="max-lg:text-[26px] text-[40px] text-center pt-5 w-full">
           AVAILABLE PAYMENT METHODS
