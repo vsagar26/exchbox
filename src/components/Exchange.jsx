@@ -17,45 +17,45 @@ const Exchange = () => {
   return (
     <>
     <section className=" pb-20">
-      <div className="pb-8"><img src={coin} alt="coin" className="relative  h-[130px] sm:h-full"/></div><h2 className="absolute text-[40px] sm:text-[70px] text-[#fff] left-[35%] sm:left-[35%] top-[110px] sm:top-[200px] pb-5 z-10 ">EXCHANGES</h2>
+      <div className="pb-8"><img src={coin} alt="coin" className="relative hidden sm:block"/></div><h2 className="absolute text-[40px] sm:text-[70px] ml-12 sm:ml-0 sm:text-[#fff] left-[35%] sm:left-[35%] top-[110px] sm:top-[200px] font-bold pb-5 z-10 text-[#000000]">EXCHANGES</h2>
       <div
-        className={`flex flex-row flex-wrap justify-around items-center px-20 pb-12 ml-32 sm:ml-0`}
+        className={`flex flex-row flex-wrap justify-around items-center mt-24 sm:mt-0 px-20 pb-12 ml-32 sm:ml-0`}
       >
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2  hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2  hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => setItems(exchanges)} data-aos="fade-right" data-aos-duration="1000"
         >
           All Types
         </button>
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => filterItem("skyexchange")} data-aos="fade-right" data-aos-duration="1000"
         >
           SKY VERSION
         </button>
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => filterItem("diamondversion")} data-aos="fade-right" data-aos-duration="1000"
         >
           DIAMOND VERSION
         </button>
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => filterItem("d247version")} data-aos="fade-left" data-aos-duration="1000"
         >
           D247 VERSION
         </button>
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => filterItem("99exchversion")} data-aos="fade-left" data-aos-duration="1000"
         >
           99EXCH VERSION
         </button>
         <button
-          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
+          className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-4 sm:px-10 py-2  my-2 hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
           onClick={() => filterItem("exchboxversion")} data-aos="fade-left" data-aos-duration="1000"
-        >
-          EXCHBOX VERSION
+        >EXCHBOX VERSION
+          
         </button>
       </div>
 
@@ -65,7 +65,7 @@ const Exchange = () => {
             <div className={`flex flex-row gap-4`} >
               <li
                 key={exchange.id}
-                className={`list-none sm:px-12 py-4 bg-[#FE6602] w-[160px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`} data-aos="fade-right" data-aos-duration="1500"
+                className={`list-none sm:px-12 py-4 bg-[#FE6602] w-[220px] sm:w-[300px] mt-4 text-center text-[16px] text-white font-normal rounded-3xl`} data-aos="fade-right" data-aos-duration="1500"
               >
                 {exchange.title}
               </li>

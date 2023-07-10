@@ -46,17 +46,17 @@ const Hero = () => {
   return (
     <div>
       <div className=" h-[120px] sm:h-[420px] w-full pb-8">
-        <div className="w-[550px] sm:w-[1500px] h-[420px]  m-auto py-3 px-4 relative group">
+        <div className="w-[550px] sm:w-[1500px] h-[420px] py-3 px-4 relative group">
           <div
             style={{ backgroundImage: `url(${bannerimg[currentIndex].img})` }}
-            className=" w-[500px] sm:w-[1480px] h-[100px] sm:h-[420px] rounded-2xl bg-center bg-cover duration-500 ml-4 sm:ml-0"
+            className=" w-[500px] sm:w-[1480px] h-[100px] sm:h-[420px] rounded-2xl bg-center bg-cover duration-500 ml-1 sm:ml-0"
           ></div>
           {/* Left Arrow */}
           <div className="hidden group-hover:block absolute top-[15%] sm:top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactLeft onClick={prevSlide} size={30} />
           </div>
           {/* Right Arrow */}
-          <div className="hidden group-hover:block absolute top-[15%] sm:top-[50%] -translate-x-0 translate-y-[-50%] right-1 sm:right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
+          <div className="hidden group-hover:block absolute top-[15%] sm:top-[50%] -translate-x-0 translate-y-[-50%] right-7 sm:right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer">
             <BsChevronCompactRight onClick={nextSlide} size={30} />
           </div>
           <div className="flex top-4 justify-center py-2">
