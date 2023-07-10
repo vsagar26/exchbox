@@ -15,9 +15,7 @@ import imps from "./imps.png"
 import googlepay from "../assets/googlepay.svg"
 import phonepe from "../assets/phonepe.svg"
 import amazonpay from "../assets/amazonpay.svg"
-import upi from "../assets/upi.png"
 import responsible from "./responsible.png"
-import paytm from "./paytm.png"
 import instant from "./instant.png"
 import trusted from "./trusted.png"
 import first from "./first.png"
@@ -27,6 +25,8 @@ import fourth from "./fourth.png"
 import arrow from "./arrow.svg"
 import coin from "./coin.jpg"
 import error from "./error.png"
+import paytm from "./paytm.svg"
+import upi from "./upi.svg"
 
 
-export {logo , hero , home , tnc , contact , paymentmode , wallet , exchange , skyexch , crexbet , d247 , diamondexch , exchangebox , imps , googlepay , phonepe , amazonpay , upi , responsible , paytm , instant , trusted , first , second , third , fourth , arrow , coin, error} 
+export {logo , hero , home , tnc , contact , paymentmode , wallet , exchange , skyexch , crexbet , d247 , diamondexch , exchangebox , imps , googlepay , phonepe , amazonpay  , responsible , instant , trusted , first , second , third , fourth , arrow , coin, error ,paytm, upi} 
