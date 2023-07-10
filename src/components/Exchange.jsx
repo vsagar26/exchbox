@@ -17,7 +17,7 @@ const Exchange = () => {
   return (
     <>
     <section className=" pb-20">
-      <div className="pb-8"><img src={coin} alt="coin" className="relative"/></div><h2 className="absolute text-[70px] text-[#fff] left-[35%] top-[200px] pb-5 z-10 ">EXCHANGES</h2>
+      <div className="pb-8"><img src={coin} alt="coin" className="relative w-[550px] sm:w-full"/></div><h2 className="absolute text-[40px] sm:text-[70px] text-[#fff] left-[18%] sm:left-[35%] top-[80px] sm:top-[200px] pb-5 z-10 ">EXCHANGES</h2>
       <div
         className={`flex flex-row flex-wrap justify-around items-center px-20 pb-12`}
       >
