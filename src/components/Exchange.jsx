@@ -17,9 +17,9 @@ const Exchange = () => {
   return (
     <>
     <section className=" pb-20">
-      <div className="pb-8"><img src={coin} alt="coin" className="relative w-[550px] sm:w-full"/></div><h2 className="absolute text-[40px] sm:text-[70px] text-[#fff] left-[18%] sm:left-[35%] top-[80px] sm:top-[200px] pb-5 z-10 ">EXCHANGES</h2>
+      <div className="pb-8"><img src={coin} alt="coin" className="relative  h-[130px] sm:h-full"/></div><h2 className="absolute text-[40px] sm:text-[70px] text-[#fff] left-[35%] sm:left-[35%] top-[110px] sm:top-[200px] pb-5 z-10 ">EXCHANGES</h2>
       <div
-        className={`flex flex-row flex-wrap justify-around items-center px-20 pb-12`}
+        className={`flex flex-row flex-wrap justify-around items-center px-20 pb-12 ml-32 sm:ml-0`}
       >
         <button
           className={`bg-[#ffffff] border-[3px] border-[#FE6602] text-[#FE6602] font-poppins px-10 py-2  my-2  hover:bg-[#FE6602] hover:text-[#ffffff] hover:border-[#FE6602] active:bg-[#FE6602] active:text-[#FE6602] active:border-[#FE6602] rounded-3xl`}
@@ -59,7 +59,7 @@ const Exchange = () => {
         </button>
       </div>
 
-      <div className={`flex flex-col justify-center items-center`}>
+      <div className={`flex flex-col justify-center items-center ml-32 sm:ml-0`}>
         {items.map((exchange) => (
           <section className={`flex flex-col `}>
             <div className={`flex flex-row gap-4`} >
