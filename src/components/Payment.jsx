@@ -10,7 +10,7 @@ const Payment = () => {
         </h2>
       </div>
       <div className={`bg-white mt-2`}>
-        <div className={` w-full mt-10 flex flex-col md:flex-row sm:w-[150px] items-center w-[180px] `}>
+        <div className={` w-full mt-10 flex flex-col md:flex-row sm:w-[150px] items-center max-[550px]:w-[180px] `}>
           {icons.map((icons, index) => (
             <img src={icons.img} key={icons.id} alt="img" className={` max-[lg]:ml-1 ${index===icons.length-1?"mb-0":"mb-12 sm:mb-0"} flex flex-row justify-between items-center xs:ml-2 sm:ml-12 md:ml-32 lg:${index===0?"ml-[120px]":"ml-[120px]"} xs:h-[80px] xs:mt-20 sm:mt-0`} />
           ))}
