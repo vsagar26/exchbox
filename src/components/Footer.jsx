@@ -131,7 +131,7 @@ const Footer = () => {
             Copyright &copy; 2023, All Right Reserved{" "}
            
           </p>
-          <a href="https://www.google.com/">VS Digital</a>
+          <a href="/">ExchBox</a>
         </div>
       </div>
     </footer>
